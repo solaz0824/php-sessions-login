@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 20px;
+}
