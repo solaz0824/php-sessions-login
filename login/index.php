@@ -23,7 +23,7 @@ if (isset($_GET["logout"])) {
                         <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z" />
                     </svg>
                 </div>
-                <h2 class="text-center mb-4">Hello, Again!!</h2>
+                <h2 class="text-center mb-4">Welcome!!</h2>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -64,10 +64,12 @@ if (isset($_GET["logout"])) {
   <div>";
                         echo $_SESSION["wrongApproach"];
                         echo "</div></div>";
-                    };
+                    } else {
+                        echo NULL;
+                    }
                     ?>
                 </div>
-                <button type="submit" class="btn btn-warning w-100">LOG IN</button>
+                <button type="submit" class="btn btn-warning w-100 mb-3 fw-bold">LOG IN</button>
             </form>
         </div>
     </div>

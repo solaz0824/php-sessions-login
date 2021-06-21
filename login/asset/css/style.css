@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap');
 body {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -12,3 +11,9 @@ body {
   margin: auto;
   border-radius: 20px;
 }
+
+  @media (max-width: 992px) {
+   .panel-contents {
+     flex-direction: column !important;
+   }
+    }
